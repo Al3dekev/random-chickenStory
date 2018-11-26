@@ -1,2 +1,2 @@
 # random-chickenStory
-All is in the title
+Random story made for friend references attention only. Internet is responsible.
