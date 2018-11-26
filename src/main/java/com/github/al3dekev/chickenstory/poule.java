@@ -1,5 +1,6 @@
 package com.github.al3dekev.chickenstory;
 
+
 public class poule{
 
     public String whispering;

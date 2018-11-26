@@ -2,6 +2,7 @@ package com.github.al3dekev.chickenstory;
 
 import java.util.Scanner;
 
+
 public class overworld {
 
     private Scanner lire = new Scanner(System.in);
