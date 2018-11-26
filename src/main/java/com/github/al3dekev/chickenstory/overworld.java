@@ -13,8 +13,6 @@ public class overworld {
 
     public void initialisation(){
         System.out.println("Welcome to the Chicken story.");
-        poule chicken = new poule();
-
     }
 
     /**
@@ -32,11 +30,11 @@ public class overworld {
 
     /**
      *  Evaluating the User answer to make something happening
-     * @param num
+     *
      */
-    public void chickenAnswerResult(int num){
+    public void chickenAnswerResult(){
 
-        if(num == 1) {
+        if(getUserAnswer() == 1) {
             poule chicken = new poule("ChickenBoard","Welcome aboard Captain");
             System.out.println(chicken.getName()+": "+chicken.getWhispering());
         } else{

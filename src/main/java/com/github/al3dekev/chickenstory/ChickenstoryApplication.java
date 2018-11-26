@@ -11,6 +11,10 @@ public class ChickenstoryApplication {
 
         overworld world = new overworld();
         world.initialisation();
+        world.chickenSelectionMenu();
+        world.chickenAnswerResult();
+
+        world.closeApp();
 
     }
 }
