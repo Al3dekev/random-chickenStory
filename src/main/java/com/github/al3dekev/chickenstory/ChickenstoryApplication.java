@@ -8,5 +8,9 @@ public class ChickenstoryApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ChickenstoryApplication.class, args);
+
+        overworld world = new overworld();
+        world.initialisation();
+
     }
 }

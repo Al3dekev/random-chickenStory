@@ -1,0 +1,28 @@
+package com.github.al3dekev.chickenstory;
+
+public class poule {
+
+    public String whispering;
+    public String name;
+
+    public poule(){
+        setWhispering("Welcome aboard Captain");
+        setName("ChickenBoard");
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setWhispering(String whispering) {
+        this.whispering = whispering;
+    }
+
+    public String getWhispering() {
+        return whispering;
+    }
+}
