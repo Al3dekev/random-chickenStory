@@ -36,7 +36,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFnTKJEEvjv36U="
 					},
-					"name": "Diag Classe",
+					"name": "Random Chicken Story - CLASSE - 1.0.3",
 					"ownedViews": [
 						{
 							"_type": "UMLClassView",
@@ -1234,7 +1234,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFnTKa+x/lLSuA="
 							},
-							"name": "name"
+							"name": "name",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -1342,7 +1343,8 @@
 								"$ref": "AAAAAAFnUCsDUufaM78="
 							},
 							"name": "Scanner lire",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1351,7 +1353,8 @@
 								"$ref": "AAAAAAFnUCsDUufaM78="
 							},
 							"name": "int userAnswer",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -1438,7 +1441,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFnUJ88iuh6REs="
 							},
-							"name": "String whispering"
+							"name": "String whispering",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1446,7 +1450,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFnUJ88iuh6REs="
 							},
-							"name": "String name"
+							"name": "String name",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -1464,7 +1469,8 @@
 									"_parent": {
 										"$ref": "AAAAAAFnUKB+sujCO/o="
 									},
-									"name": "String Cname"
+									"name": "String Cname",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
@@ -1585,6 +1591,24 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFnVhKVLyBFPoA=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model2",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFnVhKVLyBGxqk=",
+					"_parent": {
+						"$ref": "AAAAAAFnVhKVLyBFPoA="
+					},
+					"name": "Random Chicken Story - CLASSE - 1.0.4"
 				}
 			]
 		}

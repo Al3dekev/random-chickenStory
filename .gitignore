@@ -25,4 +25,4 @@
 /.nb-gradle/
 
 out
-exec.bat
+*.bat
